@@ -21,8 +21,8 @@ package install
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/metrics/pkg/apis/external_metrics"
-	"k8s.io/metrics/pkg/apis/external_metrics/v1beta1"
+	"github.com/Angus-F/metrics/pkg/apis/external_metrics"
+	"github.com/Angus-F/metrics/pkg/apis/external_metrics/v1beta1"
 )
 
 // Install registers the API group and adds types to a scheme

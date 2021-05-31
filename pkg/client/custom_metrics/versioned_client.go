@@ -27,10 +27,10 @@ import (
 	"github.com/Angus-F/client-go/rest"
 	"github.com/Angus-F/client-go/util/flowcontrol"
 
-	cmint "k8s.io/metrics/pkg/apis/custom_metrics"
-	"k8s.io/metrics/pkg/apis/custom_metrics/v1beta1"
-	"k8s.io/metrics/pkg/apis/custom_metrics/v1beta2"
-	"k8s.io/metrics/pkg/client/custom_metrics/scheme"
+	cmint "github.com/Angus-F/metrics/pkg/apis/custom_metrics"
+	"github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta1"
+	"github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta2"
+	"github.com/Angus-F/metrics/pkg/client/custom_metrics/scheme"
 )
 
 var versionConverter = NewMetricConverter()

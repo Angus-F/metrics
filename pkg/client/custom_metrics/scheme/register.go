@@ -21,9 +21,9 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	cmint "k8s.io/metrics/pkg/apis/custom_metrics"
-	cmv1beta1 "k8s.io/metrics/pkg/apis/custom_metrics/v1beta1"
-	cmv1beta2 "k8s.io/metrics/pkg/apis/custom_metrics/v1beta2"
+	cmint "github.com/Angus-F/metrics/pkg/apis/custom_metrics"
+	cmv1beta1 "github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta1"
+	cmv1beta2 "github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta2"
 )
 
 // GroupName is the group name use in this package.

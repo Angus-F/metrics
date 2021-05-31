@@ -26,7 +26,7 @@ import (
 	v1 "k8s.io/api/core/v1"
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	metrics "k8s.io/metrics/pkg/apis/metrics"
+	metrics "github.com/Angus-F/metrics/pkg/apis/metrics"
 )
 
 func init() {

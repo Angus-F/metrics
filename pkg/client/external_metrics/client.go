@@ -25,7 +25,7 @@ import (
 	"github.com/Angus-F/client-go/kubernetes/scheme"
 	"github.com/Angus-F/client-go/rest"
 	"github.com/Angus-F/client-go/util/flowcontrol"
-	"k8s.io/metrics/pkg/apis/external_metrics/v1beta1"
+	"github.com/Angus-F/metrics/pkg/apis/external_metrics/v1beta1"
 )
 
 type externalMetricsClient struct {

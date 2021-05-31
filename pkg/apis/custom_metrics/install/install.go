@@ -21,9 +21,9 @@ package install
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/metrics/pkg/apis/custom_metrics"
-	"k8s.io/metrics/pkg/apis/custom_metrics/v1beta1"
-	"k8s.io/metrics/pkg/apis/custom_metrics/v1beta2"
+	"github.com/Angus-F/metrics/pkg/apis/custom_metrics"
+	"github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta1"
+	"github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta2"
 )
 
 // Install registers the API group and adds types to a scheme

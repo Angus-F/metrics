@@ -18,7 +18,7 @@ package external_metrics
 
 import (
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/metrics/pkg/apis/external_metrics/v1beta1"
+	"github.com/Angus-F/metrics/pkg/apis/external_metrics/v1beta1"
 )
 
 // ExternalMetricsClient is a client for fetching external metrics.

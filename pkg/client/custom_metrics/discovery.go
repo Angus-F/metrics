@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"github.com/Angus-F/client-go/discovery"
 
-	cmint "k8s.io/metrics/pkg/apis/custom_metrics"
+	cmint "github.com/Angus-F/metrics/pkg/apis/custom_metrics"
 )
 
 var (

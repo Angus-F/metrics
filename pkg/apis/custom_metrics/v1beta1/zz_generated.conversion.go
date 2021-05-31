@@ -25,7 +25,7 @@ import (
 
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	custommetrics "k8s.io/metrics/pkg/apis/custom_metrics"
+	custommetrics "github.com/Angus-F/metrics/pkg/apis/custom_metrics"
 )
 
 func init() {

@@ -21,7 +21,7 @@ package fake
 import (
 	rest "github.com/Angus-F/client-go/rest"
 	testing "github.com/Angus-F/client-go/testing"
-	v1beta1 "k8s.io/metrics/pkg/client/clientset/deprecated/typed/metrics/v1beta1"
+	v1beta1 "github.com/Angus-F/metrics/pkg/client/clientset/deprecated/typed/metrics/v1beta1"
 )
 
 type FakeMetricsV1beta1 struct {

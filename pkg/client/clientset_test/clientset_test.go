@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/metrics/pkg/client/clientset/versioned/fake"
+	"github.com/Angus-F/metrics/pkg/client/clientset/versioned/fake"
 )
 
 // TestFakeList is a basic sanity check that makes sure the fake Clientset is working properly.

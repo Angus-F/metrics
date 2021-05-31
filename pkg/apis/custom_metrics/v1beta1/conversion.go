@@ -18,7 +18,7 @@ package v1beta1
 
 import (
 	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/metrics/pkg/apis/custom_metrics"
+	"github.com/Angus-F/metrics/pkg/apis/custom_metrics"
 )
 
 func Convert_v1beta1_MetricValue_To_custom_metrics_MetricValue(in *MetricValue, out *custom_metrics.MetricValue, s conversion.Scope) error {

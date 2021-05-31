@@ -25,8 +25,8 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "github.com/Angus-F/client-go/rest"
-	v1alpha1 "k8s.io/metrics/pkg/apis/metrics/v1alpha1"
-	scheme "k8s.io/metrics/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/Angus-F/metrics/pkg/apis/metrics/v1alpha1"
+	scheme "github.com/Angus-F/metrics/pkg/client/clientset/versioned/scheme"
 )
 
 // PodMetricsesGetter has a method to return a PodMetricsInterface.

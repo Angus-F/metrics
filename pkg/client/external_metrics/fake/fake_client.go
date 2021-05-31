@@ -21,8 +21,8 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"github.com/Angus-F/client-go/testing"
-	"k8s.io/metrics/pkg/apis/external_metrics/v1beta1"
-	eclient "k8s.io/metrics/pkg/client/external_metrics"
+	"github.com/Angus-F/metrics/pkg/apis/external_metrics/v1beta1"
+	eclient "github.com/Angus-F/metrics/pkg/client/external_metrics"
 )
 
 type FakeExternalMetricsClient struct {

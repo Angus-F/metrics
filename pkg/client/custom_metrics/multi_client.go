@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"github.com/Angus-F/client-go/rest"
 
-	"k8s.io/metrics/pkg/apis/custom_metrics/v1beta2"
+	"github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta2"
 )
 
 // AvailableAPIsGetter knows how to fetch and cache the preferred custom metrics API version,

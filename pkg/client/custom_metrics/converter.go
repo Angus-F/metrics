@@ -24,10 +24,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"github.com/Angus-F/client-go/rest"
 
-	cmint "k8s.io/metrics/pkg/apis/custom_metrics"
-	cmv1beta1 "k8s.io/metrics/pkg/apis/custom_metrics/v1beta1"
-	cmv1beta2 "k8s.io/metrics/pkg/apis/custom_metrics/v1beta2"
-	"k8s.io/metrics/pkg/client/custom_metrics/scheme"
+	cmint "github.com/Angus-F/metrics/pkg/apis/custom_metrics"
+	cmv1beta1 "github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta1"
+	cmv1beta2 "github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta2"
+	"github.com/Angus-F/metrics/pkg/client/custom_metrics/scheme"
 )
 
 var (

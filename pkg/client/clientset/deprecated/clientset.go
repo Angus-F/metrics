@@ -24,8 +24,8 @@ import (
 	discovery "github.com/Angus-F/client-go/discovery"
 	rest "github.com/Angus-F/client-go/rest"
 	flowcontrol "github.com/Angus-F/client-go/util/flowcontrol"
-	metricsv1alpha1 "k8s.io/metrics/pkg/client/clientset/deprecated/typed/metrics/v1alpha1"
-	metricsv1beta1 "k8s.io/metrics/pkg/client/clientset/deprecated/typed/metrics/v1beta1"
+	metricsv1alpha1 "github.com/Angus-F/metrics/pkg/client/clientset/deprecated/typed/metrics/v1alpha1"
+	metricsv1beta1 "github.com/Angus-F/metrics/pkg/client/clientset/deprecated/typed/metrics/v1beta1"
 )
 
 type Interface interface {

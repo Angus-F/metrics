@@ -24,11 +24,11 @@ import (
 	"github.com/Angus-F/client-go/discovery"
 	fakediscovery "github.com/Angus-F/client-go/discovery/fake"
 	"github.com/Angus-F/client-go/testing"
-	clientset "k8s.io/metrics/pkg/client/clientset/versioned"
-	metricsv1alpha1 "k8s.io/metrics/pkg/client/clientset/versioned/typed/metrics/v1alpha1"
-	fakemetricsv1alpha1 "k8s.io/metrics/pkg/client/clientset/versioned/typed/metrics/v1alpha1/fake"
-	metricsv1beta1 "k8s.io/metrics/pkg/client/clientset/versioned/typed/metrics/v1beta1"
-	fakemetricsv1beta1 "k8s.io/metrics/pkg/client/clientset/versioned/typed/metrics/v1beta1/fake"
+	clientset "github.com/Angus-F/metrics/pkg/client/clientset/versioned"
+	metricsv1alpha1 "github.com/Angus-F/metrics/pkg/client/clientset/versioned/typed/metrics/v1alpha1"
+	fakemetricsv1alpha1 "github.com/Angus-F/metrics/pkg/client/clientset/versioned/typed/metrics/v1alpha1/fake"
+	metricsv1beta1 "github.com/Angus-F/metrics/pkg/client/clientset/versioned/typed/metrics/v1beta1"
+	fakemetricsv1beta1 "github.com/Angus-F/metrics/pkg/client/clientset/versioned/typed/metrics/v1beta1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

@@ -25,8 +25,8 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "github.com/Angus-F/client-go/rest"
-	v1beta1 "k8s.io/metrics/pkg/apis/metrics/v1beta1"
-	scheme "k8s.io/metrics/pkg/client/clientset/deprecated/scheme"
+	v1beta1 "github.com/Angus-F/metrics/pkg/apis/metrics/v1beta1"
+	scheme "github.com/Angus-F/metrics/pkg/client/clientset/deprecated/scheme"
 )
 
 // NodeMetricsesGetter has a method to return a NodeMetricsInterface.

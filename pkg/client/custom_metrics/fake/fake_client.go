@@ -23,8 +23,8 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"github.com/Angus-F/client-go/testing"
-	"k8s.io/metrics/pkg/apis/custom_metrics/v1beta2"
-	cmclient "k8s.io/metrics/pkg/client/custom_metrics"
+	"github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta2"
+	cmclient "github.com/Angus-F/metrics/pkg/client/custom_metrics"
 )
 
 type GetForActionImpl struct {

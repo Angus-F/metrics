@@ -31,7 +31,7 @@ If you want to implement this as an API server for this API, please see the
 library, which contains the basic infrastructure required to set up such
 an API server.
 
-Import Path: `k8s.io/metrics/pkg/apis/custom_metrics`.
+Import Path: `github.com/Angus-F/metrics/pkg/apis/custom_metrics`.
 
 ### Resource Metrics API
 
@@ -40,7 +40,7 @@ pods and nodes.
 
 The API is implemented by [metrics-server](https://github.com/kubernetes-sigs/metrics-server).
 
-Import Path: `k8s.io/metrics/pkg/apis/metrics`.
+Import Path: `github.com/Angus-F/metrics/pkg/apis/metrics`.
 
 ## Compatibility
 

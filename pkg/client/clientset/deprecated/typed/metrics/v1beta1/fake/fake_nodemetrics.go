@@ -24,7 +24,7 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	watch "k8s.io/apimachinery/pkg/watch"
 	testing "github.com/Angus-F/client-go/testing"
-	v1beta1 "k8s.io/metrics/pkg/apis/metrics/v1beta1"
+	v1beta1 "github.com/Angus-F/metrics/pkg/apis/metrics/v1beta1"
 )
 
 // FakeNodeMetricses implements NodeMetricsInterface

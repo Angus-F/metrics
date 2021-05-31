@@ -24,9 +24,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	cmint "k8s.io/metrics/pkg/apis/custom_metrics"
-	cmv1beta1 "k8s.io/metrics/pkg/apis/custom_metrics/v1beta1"
-	cmv1beta2 "k8s.io/metrics/pkg/apis/custom_metrics/v1beta2"
+	cmint "github.com/Angus-F/metrics/pkg/apis/custom_metrics"
+	cmv1beta1 "github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta1"
+	cmv1beta2 "github.com/Angus-F/metrics/pkg/apis/custom_metrics/v1beta2"
 )
 
 func TestMetricConverter(t *testing.T) {

@@ -20,8 +20,8 @@ package v1alpha1
 
 import (
 	rest "github.com/Angus-F/client-go/rest"
-	v1alpha1 "k8s.io/metrics/pkg/apis/metrics/v1alpha1"
-	"k8s.io/metrics/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/Angus-F/metrics/pkg/apis/metrics/v1alpha1"
+	"github.com/Angus-F/metrics/pkg/client/clientset/versioned/scheme"
 )
 
 type MetricsV1alpha1Interface interface {
