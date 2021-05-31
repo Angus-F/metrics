@@ -20,7 +20,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/testing"
+	"github.com/Angus-F/client-go/testing"
 	"k8s.io/metrics/pkg/apis/external_metrics/v1beta1"
 	eclient "k8s.io/metrics/pkg/client/external_metrics"
 )

@@ -22,9 +22,9 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/Angus-F/client-go/kubernetes/scheme"
+	"github.com/Angus-F/client-go/rest"
+	"github.com/Angus-F/client-go/util/flowcontrol"
 	"k8s.io/metrics/pkg/apis/external_metrics/v1beta1"
 )
 

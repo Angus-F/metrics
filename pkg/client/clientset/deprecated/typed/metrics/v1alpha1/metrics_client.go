@@ -19,7 +19,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	rest "k8s.io/client-go/rest"
+	rest "github.com/Angus-F/client-go/rest"
 	v1alpha1 "k8s.io/metrics/pkg/apis/metrics/v1alpha1"
 	"k8s.io/metrics/pkg/client/clientset/deprecated/scheme"
 )

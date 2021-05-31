@@ -24,8 +24,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/Angus-F/client-go/rest"
+	"github.com/Angus-F/client-go/util/flowcontrol"
 
 	cmint "k8s.io/metrics/pkg/apis/custom_metrics"
 	"k8s.io/metrics/pkg/apis/custom_metrics/v1beta1"

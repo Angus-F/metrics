@@ -19,8 +19,8 @@ limitations under the License.
 package fake
 
 import (
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	rest "github.com/Angus-F/client-go/rest"
+	testing "github.com/Angus-F/client-go/testing"
 	v1alpha1 "k8s.io/metrics/pkg/client/clientset/deprecated/typed/metrics/v1alpha1"
 )
 

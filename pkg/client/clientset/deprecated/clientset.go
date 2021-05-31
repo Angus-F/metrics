@@ -21,9 +21,9 @@ package deprecated
 import (
 	"fmt"
 
-	discovery "k8s.io/client-go/discovery"
-	rest "k8s.io/client-go/rest"
-	flowcontrol "k8s.io/client-go/util/flowcontrol"
+	discovery "github.com/Angus-F/client-go/discovery"
+	rest "github.com/Angus-F/client-go/rest"
+	flowcontrol "github.com/Angus-F/client-go/util/flowcontrol"
 	metricsv1alpha1 "k8s.io/metrics/pkg/client/clientset/deprecated/typed/metrics/v1alpha1"
 	metricsv1beta1 "k8s.io/metrics/pkg/client/clientset/deprecated/typed/metrics/v1beta1"
 )
